@@ -1,0 +1,37 @@
+{
+	"name": "@devteks/cursor",
+	"version": "0.0.1",
+	"description": "Hide, show and toggle terminal cursor",
+	"license": "MIT",
+	"repository": "github:mosamuhana/cursor",
+	"author": {
+		"name": "Mosa Muhana <mosamuhana@gmail.com>",
+		"url": "https://github.com/mosamuhana"
+	},
+	"homepage": "https://github.com/mosamuhana/cursor",
+	"bugs": {
+		"url": "https://github.com/mosamuhana/cursor/issues"
+	},
+	"funding": "https://github.com/mosamuhana/cursor?sponsor=1",
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"cli cursor",
+		"terminal cursor",
+		"terminal",
+		"cli",
+		"show cursor",
+		"hide cursor",
+		"toggle cursor"
+	],
+	"engines": {
+		"node": ">=10"
+	},
+	"main": "index.js",
+	"types": "index.d.ts",
+	"dependencies": {
+		"@devteks/exit-hook": "*"
+	}
+}
